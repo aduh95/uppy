@@ -1,0 +1,5 @@
+- meta: fork specific tweaks
+- meta: add release automations
+- meta: Refactor locale scripts & generate types and docs (@Murderlon / #3276)
+- @uppy/companion: Remove references of incorrect `options` argument for `companion.socket` (@mifi / #3307)
+- meta: Upgrade linting to 2.0.0-0 (@kvz / #3280)
