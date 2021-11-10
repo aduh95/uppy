@@ -12,6 +12,36 @@ Please add your entries in this format:
 
 In the current stage we aim to release a new version at least every month.
 
+## 2.2.4
+
+Released: 2021-11-10
+
+| Package | Version | Package | Version |
+| - | - | - | - |
+| @uppy/aws-s3 | 2.0.6 | @uppy/onedrive | 2.0.5 |
+| @uppy/aws-s3-multipart | 2.1.2 | @uppy/provider-views | 2.0.6 |
+| @uppy/box | 1.0.5 | @uppy/react | 2.1.2 |
+| @uppy/companion | 3.1.2 | @uppy/robodog | 2.1.4 |
+| @uppy/companion-client | 2.0.4 | @uppy/screen-capture | 2.0.5 |
+| @uppy/core | 2.1.3 | @uppy/status-bar | 2.1.2 |
+| @uppy/dashboard | 2.1.2 | @uppy/store-default | 2.0.3 |
+| @uppy/drag-drop | 2.0.5 | @uppy/thumbnail-generator | 2.0.6 |
+| @uppy/dropbox | 2.0.5 | @uppy/transloadit | 2.0.5 |
+| @uppy/facebook | 2.0.5 | @uppy/tus | 2.1.2 |
+| @uppy/file-input | 2.0.5 | @uppy/url | 2.0.5 |
+| @uppy/golden-retriever | 2.0.6 | @uppy/utils | 4.0.4 |
+| @uppy/google-drive | 2.0.5 | @uppy/webcam | 2.0.5 |
+| @uppy/image-editor | 1.0.5 | @uppy/xhr-upload | 2.0.6 |
+| @uppy/instagram | 2.0.5 | @uppy/zoom | 1.0.5 |
+| @uppy/locales | 2.0.4 | uppy | 2.2.4 |
+
+- meta: fork specific tweaks
+- meta: add release automations
+- meta: Refactor locale scripts & generate types and docs (@Murderlon / #3276)
+- @uppy/companion: Remove references of incorrect `options` argument for `companion.socket` (@mifi / #3307)
+- meta: Upgrade linting to 2.0.0-0 (@kvz / #3280)
+
+
 ## 2.2.1
 
 Released: 2021-10-14
