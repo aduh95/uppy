@@ -93,7 +93,7 @@ const newHome = home.replace(
 )
 await fs.writeFile(homeUrl, newHome)
 
-const prettyPath = (url) => url.toString().split('uppy', 2)[1]
+const prettyPath = (url) => url.toString().split('uppy/', 2)[1]
 
 console.log(`✅ Generated ${prettyPath(testUrl)}`)
 console.log(`✅ Generated ${prettyPath(htmlUrl)}`)
